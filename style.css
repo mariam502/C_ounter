@@ -50,16 +50,17 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+    position: relative;
   }
   .uturn {
-    position: relative;
-    bottom: 150%;
-    left: 46.5%;
+    position: absolute;
+    bottom: 100%;
+    left: 51.5%;
   }
   .mins {
-    position: relative;
-    bottom: 75.5%;
-    left: 92.5%;
+    position: absolute;
+    bottom: 19.5%;
+    left: 89.5%;
   }
   h1 {
     font-size: 27px;
