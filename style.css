@@ -66,3 +66,46 @@ h1 {
     font-size: 27px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  button {
+    width: 50px;
+    height: 37px;
+    margin: 3%;
+    font-size: 15px;
+  }
+  .container {
+    height: calc(15vw - 10px);
+    width: calc(29vw - 10px);
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+  }
+  .uturn {
+    position: absolute;
+    bottom: 100%;
+    left: 40.5%;
+  }
+  .mins {
+    position: absolute;
+    bottom: 19.5%;
+    left: 91.5%;
+  }
+  .key{
+    position: absolute;
+    bottom: 19.5%;
+    left: 40.5%;
+  }
+  .plus{
+    position: absolute;
+    bottom: 19.5%;
+    right:  57.5%;
+  }
+  h1 {
+    font-size: 27px;
+  }
+
+}
